@@ -53,3 +53,6 @@ compile_commands.json
 
 *_qmlcache.qrc
 *.qmake
+*.idx
+*.obj
+.qtc_clangd/.cache/clangd/index/main.cpp.9FAD4791EF066D58.idx
