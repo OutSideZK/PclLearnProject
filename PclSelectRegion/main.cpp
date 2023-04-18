@@ -5,6 +5,7 @@
 #include <pcl/point_types.h>
 #include <pcl/visualization/pcl_visualizer.h>
 
+
 typedef pcl::PointXYZ PointT;
 
 struct callback_args {

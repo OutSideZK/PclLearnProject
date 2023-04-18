@@ -125,6 +125,7 @@ CONFIG(debug, debug|release) {
         $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkFiltersVerdict-9.2-gd.lib \
         $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkfreetype-9.2-gd.lib \
         $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkGeovisCore-9.2-gd.lib \
+        $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkGUISupportQt-9.2-gd.lib \
         $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkgl2ps-9.2-gd.lib \
         $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkhdf5-9.2-gd.lib \
         $${BASE_PCL_PATH}/3rdParty/VTK/lib/vtkhdf5_hl-9.2-gd.lib \
@@ -315,7 +316,7 @@ LIBS += -LC:\Soft\PCL1.13.0\3rdParty\VTK\lib\
         -lvtkfreetype-9.2\
         -lvtkGeovisCore-9.2\
         -lvtkglew-9.2\
-#        -lvtkGUISupportQt-9.2\
+        -lvtkGUISupportQt-9.2\
 #        -lvtkGUISupportQtSQL-9.2\
         -lvtkhdf5-9.2\
         -lvtkhdf5_hl-9.2\
