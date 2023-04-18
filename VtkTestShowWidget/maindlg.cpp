@@ -70,7 +70,7 @@ void MainDlg::on_pushButton_2_clicked()
     pcl::visualization::PointCloudColorHandlerCustom<PointXYZ> blue(m_LoadCloud, 0, 0, 255);
     m_ShowViewer->updatePointCloud(m_LoadCloud, blue, "cloud");
 
-    cb_args.orgin_points = m_LoadCloud;
+    cb_args.orgin_points =   m_LoadCloud;
     pcl::PointCloud<PointXYZ>::Ptr chosed_points_3d(new pcl::PointCloud<PointXYZ>);
     cb_args.chosed_points_3d = chosed_points_3d;
     cb_args.viewerPtr = boost::shared_ptr<visualization::PCLVisualizer>(m_ShowViewer);
